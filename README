@@ -1,0 +1,3 @@
+Comando para Iniciar a extrutura do projeto
+
+yarn add typescript @types/react @types/node -D
