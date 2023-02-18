@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
-import styles  from '../styles/home.module.css'
+import styles  from '../styles/home.module.scss'
 
 export default function Home() {
 
@@ -18,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className={styles.title}>Hello World</h1>
+        <h1 className={styles.title}>Hello <span>World</span></h1>
       </main>
     </>
   )
