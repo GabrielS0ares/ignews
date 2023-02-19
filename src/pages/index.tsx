@@ -1,10 +1,4 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
-
-
-const inter = Inter({ subsets: ['latin'] })
-
-import styles  from '../styles/home.module.scss'
 
 export default function Home() {
 
@@ -14,7 +8,7 @@ export default function Home() {
         <title>Inicio | ig.news</title>
       </Head>
       <main>
-        <h1 className={styles.title}>Hello<span> World</span></h1>
+        <h1>Hello World</h1>
       </main>
     </>
   )
